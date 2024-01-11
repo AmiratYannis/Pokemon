@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+     
+}
+  
+.pokemon {
+    border-style: solid ;
+    flex: 0 0 24%;
+}
+  
+.card.hoverable{
+    display: inline-block;
+}
+
+.card{
+    margin-right: 20px;
+}
+  
+  
